@@ -1,0 +1,501 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******Header Styles********/
+#nawcwdLogo {
+    width: 14.5%;
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+	/*margin: 0% 5%;*/
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#bannerImage {
+	width: 48.5%;
+	height: auto;
+	max-height: 200px;
+	margin: 0;
+}
+#chemistryLogo {
+	width: 14.5%;
+	height: auto;
+	max-height: 200px;
+	max-width: 200px;
+	/*margin: 0% 5%;*/
+	margin-top: 10px;
+	margin-left: 20px;
+}
+header {
+	/*background-color: #0A4E9B;*/
+	background: -webkit-linear-gradient(#104a96, #1e2354);
+
+}
+
+/*Navbar*/
+.nav-item {
+	margin: 0px 2px;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #2479d4 5%, #053f9c 100%);
+	background-color:#2479d4;
+	border-radius:15px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	font-weight: 500;
+	padding:5px 10px;
+	text-decoration:none;
+	/*text-shadow:0px 1px 0px #1570cd;*/
+}
+.nav-item:hover {
+	background:linear-gradient(to bottom, #053f9c 5%, #2479d4 100%);
+	background-color:#053f9c;
+}
+.nav-item:active {
+	position:relative;
+	top:1px;
+}
+.navbar-dark .navbar-nav .nav-link,  .navbar-dark .navbar-nav .nav-link:hover {
+	color: white;
+}
+
+/*******Body Styles (includes home page styles)********/
+body {
+	background-color: white;
+	font-family: 'Monda', sans-serif;
+	font-size: 1.1em;
+}
+.bodyContent {
+	margin: 1% 10%;
+	width: 80%;
+}
+.title {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.titleHome {
+	text-align: center;
+	padding-top: 20px;
+}
+.homePubsCovers {
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.homePubsCoversContainer {
+	margin: 0% 0%;
+	border: solid black 3px;
+	padding: 20px;
+	height: 100%;
+	overflow-wrap: break-word;
+}
+.homePubsCoversContainer > p {
+	font-size: 1em;
+}
+.homeCover {
+	border: solid black 1px;
+	width: 100%;
+}
+.homeCoverContainer {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.row {
+	margin: 0px;
+}
+.col-lg-12 {
+	padding: 0;
+}
+.container-fluid {
+	padding: 0;
+}
+.carousel {
+	max-width: 1600px;
+	margin: auto;
+}
+.carousel-item {
+	max-height: 400px;
+}
+.carousel-item > img {
+	max-height: 400px;
+}
+
+
+/*******Footer Styles********/
+footer {
+	/*background-color: #0A4E9B;*/
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: -webkit-linear-gradient(#104a96, #1e2354);
+}
+.block-height-Footer {
+	min-height: 100px;
+	height: auto;
+	/*display: flex;*/
+}
+#footer1 {
+	/*float: left;*/
+	/*width: 20%;*/
+	/*height: 100%;*/
+}
+#footerList a, #footerList{
+	color: white;
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+#footerList a:hover {
+	color: darkgray;
+}
+#footer2 {
+	/*float: left;*/
+	/*width: 60%;*/
+	/*height: 100%;*/
+	padding-left: 20px;
+	text-align: center;
+}
+#footer2 a {
+	color: white;
+	text-decoration: underline
+}
+#footer2 a:hover {
+	color: darkgray;
+}
+.footerMiddleText {
+	color: white;
+	font-size: 1.1em;
+}
+#footer3 {
+	/*float: left;
+	width: 20%;*/
+	/*height: 100%;*/
+	text-align: center;
+}
+#footer3 > a > img {
+	padding: 4px;
+	width: 64px;
+	height: auto;
+}
+.footerSiteMapContainer {
+	
+}
+
+@media (min-width: 800px) {
+	.footerSiteMapContainer {
+		display: flex;
+		justify-content: center;
+	}
+	.rightFooter {
+		
+	}
+}
+.footerSiteMapContainer ul {
+	/*padding-right: 20px;*/
+}
+.footerSiteMapContainer a {
+	color: white;
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+.footerSiteMapContainer a:hover {
+	color: darkgray;
+}
+.footerSiteMapContainer > div {
+	display: block; 
+	float: left; 
+	/*width: 30%;*/
+}
+.footerSiteMapContainer > ul > ul {
+	list-style-type: circle;
+	padding-bottom: 0;
+}
+.footerSiteMapContainer > ul > ul > li {
+	 margin-left:1em;
+}
+.footerSiteMapContainer > ul > ul > ul {
+	list-style-type: square; 
+	padding-bottom: 0;
+}
+.footerSiteMapContainer > ul > ul > ul > li {
+	margin-left: 1em;
+}
+footer li::marker {
+	color: white;
+}
+
+/****** Manuscripts Page Styles ****/
+#manuscriptsAccordion {
+	padding: 20px 0px;
+}
+#manuscriptsAccordion > div > a > div > h5 {
+	text-align: center;
+}
+
+/***** Outreach Page Styles *****/
+#eventsAccordion {
+	padding: 20px 0px;
+}
+#eventsAccordion > div > a > div > h5 {
+	text-align: center;
+}
+.accordionImg {
+	width: 50%;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	max-width: 800px;
+	max-height: 400px;
+}
+.accordionImg2 {
+	width: 50%;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	max-width: 800px;
+	max-height: 400px;
+}
+
+/****** Covers Page Styles ****/
+.coverPad {
+	padding: 10px 0px;
+}
+.coverImg {
+	width: 75%;
+	height: auto;
+	margin: 0% 12.5%;
+	border: solid black 1px;
+}
+
+/****** Contact Page Styles ****/
+.ContactInfo{
+	text-align: center;
+}
+.contactContainer {
+	/*background-color: rgba(0, 123, 255,0.2);*/
+	width: 75%;
+	margin: 0% 12.5%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow-wrap: break-word;
+}
+.contactContainer > hr {
+	border-top: 1px solid black;
+}
+.contactTable {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+	width: 100%;
+}
+.contactTable tr td {
+	border: 1px solid black;
+	padding: 5px;
+}
+.contactTable td:nth-child(1) {
+	text-align: right;
+}
+
+/***** Facility and Mission Page Styles *****/
+.FamImg { 
+	width: 80%;
+	height: auto;
+	max-height: 400px;
+	max-width: 800px;
+	margin-bottom: 20px;
+}
+
+.OrgImg {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	max-height: 400px;
+	max-width: 800px;
+	margin-bottom: 20px;
+}
+
+.TreeImg {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	max-height: 400px;
+	max-width: 800px;
+	
+}
+
+/***** About Page Styles *****/
+.AboutImg { 
+	width: 50%;
+	height: auto;
+	padding-bottom: 10px;
+	max-height: 400px;
+	max-width: 800px;
+}
+
+/***** Past RD Page Styles *****/
+.RDImg { 
+	align-content: left;
+	height: 200px;
+	
+}
+
+/***** Specific RD Page Styles *****/
+.specificRDImg {
+	width: 80%;
+	max-width: 800px;
+	max-height: 400px;
+	padding-bottom: 10px;
+}
+.specificRDImgSingle {
+	width: 50%;
+	max-width: 800px;
+	max-height: 400px;
+}
+
+/***** Research Page Styles *****/
+.ResearchImg {
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	min-width: 200px;
+	min-height: 150px;
+	max-height: 400px;
+	max-width: 600px;
+}
+.ResearchImg2 {
+	width: 30%;
+	height: auto;
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	min-width: 200px;
+	min-height: 150px;
+	max-height: 400px;
+	max-width: 600px;
+}
+
+/***** Core Areas Sub Page Styles *****/
+.CoreImg {
+	width: 50%;
+	height: auto;
+	max-height: 300px;
+	max-width: 400px;
+	min-width: 200px;
+	min-height: 150px;
+}
+
+/*****Opportunities Styles *****/
+.TempImg{
+	width:25%;
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	min-width: 200px;
+	min-height: 150px;
+	max-height: 400px;
+	max-width: 800px;
+}
+.TempImg2{
+	width:25%;
+	float:right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	min-width: 200px;
+	min-height: 150px;
+	max-height: 400px;
+	max-width: 800px;
+}
+
+/*****Mass Spec Styles *****/
+.MassSpectitle{
+	
+}
+.MassSpecImg{
+	width:30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/*****Thermal Analysis*****/
+.ThermalAnalysistitle{
+	
+}
+.ThermalAnalysisImg{
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/*****Spectroscopy*****/
+.Spectroscopytitle{
+	
+}
+.SpectroscopyImg{
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/*****Metals and Ion Chromatography*****/
+.MetalsandIonChromatographytitle{
+	
+}
+.MetalsandIonImg{
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/*****NMR*****/
+.NMRtitle{
+	
+}
+.NMRImg{
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/*****3D Printing*****/
+.ThreeDPrintingtitle{
+	
+}
+.ThreeDPrintingImg{
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/****** Directory ******/
+.directoryContent {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.directoryImage {
+	width: 70%;
+	height: auto;
+	padding-bottom: 10px;
+}
+.directoryName {
+	font-size: 1.4em;
+}
+.directoryTitle {
+	font-size: 1.1em;
+}
+.directoryEmail {
+	font-size: 1.1em;
+}
+.directoryName, .directoryEmail, .directoryTitle, .directoryImage {
+	margin: 0px;
+	padding: 2px;
+}
